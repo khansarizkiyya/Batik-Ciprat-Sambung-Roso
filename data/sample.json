@@ -1,0 +1,1099 @@
+{
+ "pengaturan": {
+  "wa_pengelola": "62800000099"
+ },
+ "narasi": [
+  {
+   "judul": "Awal berdiri",
+   "isi": "Ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet.",
+   "urutan": 1
+  },
+  {
+   "judul": "Motivasi pendiri",
+   "isi": "Dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur.",
+   "urutan": 2
+  },
+  {
+   "judul": "Tentang batik ciprat",
+   "isi": "Sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing.",
+   "urutan": 3
+  }
+ ],
+ "struktur": [
+  {
+   "id": 1,
+   "jabatan": "Ketua Shelter Sambung Roso",
+   "nama": "Nama Pengurus 01",
+   "foto": "#E69F00",
+   "alt_foto": "Foto contoh Nama Pengurus 01",
+   "tingkat": 1,
+   "urutan": 1
+  },
+  {
+   "id": 2,
+   "jabatan": "Bagian Keuangan",
+   "nama": "Nama Pengurus 02",
+   "foto": "#009E73",
+   "alt_foto": "Foto contoh Nama Pengurus 02",
+   "tingkat": 2,
+   "urutan": 2
+  },
+  {
+   "id": 3,
+   "jabatan": "Bagian Administrasi",
+   "nama": "Nama Pengurus 03",
+   "foto": "#D55E00",
+   "alt_foto": "Foto contoh Nama Pengurus 03",
+   "tingkat": 2,
+   "urutan": 3
+  },
+  {
+   "id": 4,
+   "jabatan": "Bagian Produksi",
+   "nama": "Nama Pengurus 04",
+   "foto": "#CC79A7",
+   "alt_foto": "Foto contoh Nama Pengurus 04",
+   "tingkat": 2,
+   "urutan": 4
+  },
+  {
+   "id": 5,
+   "jabatan": "Bagian Pemasaran",
+   "nama": "Nama Pengurus 05",
+   "foto": "#56B4E9",
+   "alt_foto": "Foto contoh Nama Pengurus 05",
+   "tingkat": 2,
+   "urutan": 5
+  }
+ ],
+ "artis": [
+  {
+   "id": 1,
+   "nama": "Nama Artis 01",
+   "nama_panjang": "Nama Panjang Artis 01",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1986-02-02",
+   "kondisi": "Disabilitas sensorik",
+   "peran": null,
+   "foto": "#E69F00",
+   "alt_foto": "Foto contoh Nama Artis 01",
+   "publikasi": "lengkap",
+   "urutan": 1
+  },
+  {
+   "id": 2,
+   "nama": "Nama Artis 02",
+   "nama_panjang": "Nama Panjang Artis 02",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1987-03-03",
+   "kondisi": "Disabilitas intelektual",
+   "peran": null,
+   "foto": "#009E73",
+   "alt_foto": "Foto contoh Nama Artis 02",
+   "publikasi": "lengkap",
+   "urutan": 2
+  },
+  {
+   "id": 3,
+   "nama": "Nama Artis 03",
+   "nama_panjang": "Nama Panjang Artis 03",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1988-04-04",
+   "kondisi": "Disabilitas mental",
+   "peran": null,
+   "foto": "#D55E00",
+   "alt_foto": "Foto contoh Nama Artis 03",
+   "publikasi": "lengkap",
+   "urutan": 3
+  },
+  {
+   "id": 4,
+   "nama": "Nama Artis 04",
+   "nama_panjang": "Nama Panjang Artis 04",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1989-05-05",
+   "kondisi": "Memilih untuk tidak memberi tahu",
+   "peran": null,
+   "foto": "#CC79A7",
+   "alt_foto": "Foto contoh Nama Artis 04",
+   "publikasi": "lengkap",
+   "urutan": 4
+  },
+  {
+   "id": 5,
+   "nama": "Nama Artis 05",
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "nama",
+   "urutan": 5
+  },
+  {
+   "id": 6,
+   "nama": "Nama Artis 06",
+   "nama_panjang": "Nama Panjang Artis 06",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1991-07-07",
+   "kondisi": "Disabilitas sensorik",
+   "peran": null,
+   "foto": "#4D4D4D",
+   "alt_foto": "Foto contoh Nama Artis 06",
+   "publikasi": "lengkap",
+   "urutan": 6
+  },
+  {
+   "id": 7,
+   "nama": null,
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "anonim",
+   "urutan": 7
+  },
+  {
+   "id": 8,
+   "nama": "Nama Artis 08",
+   "nama_panjang": "Nama Panjang Artis 08",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1993-09-09",
+   "kondisi": "Disabilitas mental",
+   "peran": null,
+   "foto": "#0072B2",
+   "alt_foto": "Foto contoh Nama Artis 08",
+   "publikasi": "lengkap",
+   "urutan": 8
+  },
+  {
+   "id": 9,
+   "nama": "Nama Artis 09",
+   "nama_panjang": "Nama Panjang Artis 09",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1994-10-10",
+   "kondisi": "Memilih untuk tidak memberi tahu",
+   "peran": null,
+   "foto": "#E69F00",
+   "alt_foto": "Foto contoh Nama Artis 09",
+   "publikasi": "lengkap",
+   "urutan": 9
+  },
+  {
+   "id": 10,
+   "nama": "Nama Artis 10",
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "nama",
+   "urutan": 10
+  },
+  {
+   "id": 11,
+   "nama": "Nama Artis 11",
+   "nama_panjang": "Nama Panjang Artis 11",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1996-12-12",
+   "kondisi": "Disabilitas sensorik",
+   "peran": null,
+   "foto": "#D55E00",
+   "alt_foto": "Foto contoh Nama Artis 11",
+   "publikasi": "lengkap",
+   "urutan": 11
+  },
+  {
+   "id": 12,
+   "nama": "Nama Artis 12",
+   "nama_panjang": "Nama Panjang Artis 12",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1997-01-13",
+   "kondisi": "Disabilitas intelektual",
+   "peran": null,
+   "foto": "#CC79A7",
+   "alt_foto": "Foto contoh Nama Artis 12",
+   "publikasi": "lengkap",
+   "urutan": 12
+  },
+  {
+   "id": 13,
+   "nama": "Nama Artis 13",
+   "nama_panjang": "Nama Panjang Artis 13",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1998-02-14",
+   "kondisi": "Disabilitas mental",
+   "peran": null,
+   "foto": "#56B4E9",
+   "alt_foto": "Foto contoh Nama Artis 13",
+   "publikasi": "lengkap",
+   "urutan": 13
+  },
+  {
+   "id": 14,
+   "nama": null,
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "anonim",
+   "urutan": 14
+  },
+  {
+   "id": 15,
+   "nama": "Nama Artis 15",
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "nama",
+   "urutan": 15
+  },
+  {
+   "id": 16,
+   "nama": "Nama Artis 16",
+   "nama_panjang": "Nama Panjang Artis 16",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "2001-05-17",
+   "kondisi": "Disabilitas sensorik",
+   "peran": null,
+   "foto": "#0072B2",
+   "alt_foto": "Foto contoh Nama Artis 16",
+   "publikasi": "lengkap",
+   "urutan": 16
+  },
+  {
+   "id": 17,
+   "nama": "Nama Artis 17",
+   "nama_panjang": "Nama Panjang Artis 17",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "2002-06-18",
+   "kondisi": "Disabilitas intelektual",
+   "peran": null,
+   "foto": "#E69F00",
+   "alt_foto": "Foto contoh Nama Artis 17",
+   "publikasi": "lengkap",
+   "urutan": 17
+  },
+  {
+   "id": 18,
+   "nama": "Nama Artis 18",
+   "nama_panjang": "Nama Panjang Artis 18",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "2003-07-19",
+   "kondisi": "Disabilitas mental",
+   "peran": null,
+   "foto": "#009E73",
+   "alt_foto": "Foto contoh Nama Artis 18",
+   "publikasi": "lengkap",
+   "urutan": 18
+  },
+  {
+   "id": 19,
+   "nama": "Nama Artis 19",
+   "nama_panjang": "Nama Panjang Artis 19",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "2004-08-20",
+   "kondisi": "Memilih untuk tidak memberi tahu",
+   "peran": null,
+   "foto": "#D55E00",
+   "alt_foto": "Foto contoh Nama Artis 19",
+   "publikasi": "lengkap",
+   "urutan": 19
+  },
+  {
+   "id": 20,
+   "nama": "Nama Artis 20",
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "nama",
+   "urutan": 20
+  },
+  {
+   "id": 21,
+   "nama": null,
+   "nama_panjang": null,
+   "kegemaran": null,
+   "tanggal_lahir": null,
+   "kondisi": null,
+   "peran": null,
+   "foto": null,
+   "alt_foto": null,
+   "publikasi": "anonim",
+   "urutan": 21
+  },
+  {
+   "id": 22,
+   "nama": "Nama Artis 22",
+   "nama_panjang": "Nama Panjang Artis 22",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1987-11-23",
+   "kondisi": "Disabilitas intelektual",
+   "peran": null,
+   "foto": "#4D4D4D",
+   "alt_foto": "Foto contoh Nama Artis 22",
+   "publikasi": "lengkap",
+   "urutan": 22
+  },
+  {
+   "id": 23,
+   "nama": "Nama Artis 23",
+   "nama_panjang": "Nama Panjang Artis 23",
+   "kegemaran": "Lorem ipsum dolor sit amet.",
+   "tanggal_lahir": "1988-12-24",
+   "kondisi": "Disabilitas mental",
+   "peran": null,
+   "foto": "#8C6D1F",
+   "alt_foto": "Foto contoh Nama Artis 23",
+   "publikasi": "lengkap",
+   "urutan": 23
+  }
+ ],
+ "produk": [
+  {
+   "id": 1,
+   "nama": "Produk Lorem 01",
+   "harga": 65000,
+   "deskripsi": "Ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore.",
+   "foto": [
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 01, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 2,
+   "nama": "Produk Lorem 02",
+   "harga": 80000,
+   "deskripsi": "Dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et.",
+   "foto": [
+    "#009E73"
+   ],
+   "alt": [
+    "Foto contoh produk 02, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 3,
+   "nama": "Produk Lorem 03",
+   "harga": 95000,
+   "deskripsi": "Sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore.",
+   "foto": [
+    "#D55E00"
+   ],
+   "alt": [
+    "Foto contoh produk 03, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 4,
+   "nama": "Produk Lorem 04",
+   "harga": 110000,
+   "deskripsi": "Amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna.",
+   "foto": [
+    "#CC79A7",
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 04, 1",
+    "Foto contoh produk 04, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 5,
+   "nama": "Produk Lorem 05",
+   "harga": 125000,
+   "deskripsi": "Consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua.",
+   "foto": [
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 05, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 6,
+   "nama": "Produk Lorem 06",
+   "harga": 140000,
+   "deskripsi": "Adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem.",
+   "foto": [
+    "#4D4D4D"
+   ],
+   "alt": [
+    "Foto contoh produk 06, 1"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 7,
+   "nama": "Produk Lorem 07",
+   "harga": 50000,
+   "deskripsi": "Elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum.",
+   "foto": [
+    "#8C6D1F"
+   ],
+   "alt": [
+    "Foto contoh produk 07, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 8,
+   "nama": "Produk Lorem 08",
+   "harga": 65000,
+   "deskripsi": "Sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor.",
+   "foto": [
+    "#0072B2",
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 08, 1",
+    "Foto contoh produk 08, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 9,
+   "nama": "Produk Lorem 09",
+   "harga": null,
+   "deskripsi": "Do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit.",
+   "foto": [
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 09, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 10,
+   "nama": "Produk Lorem 10",
+   "harga": 95000,
+   "deskripsi": "Eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet.",
+   "foto": [
+    "#009E73"
+   ],
+   "alt": [
+    "Foto contoh produk 10, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 11,
+   "nama": "Produk Lorem 11",
+   "harga": 110000,
+   "deskripsi": "Tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur.",
+   "foto": [
+    "#D55E00"
+   ],
+   "alt": [
+    "Foto contoh produk 11, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 12,
+   "nama": "Produk Lorem 12",
+   "harga": 125000,
+   "deskripsi": "Incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing.",
+   "foto": [
+    "#CC79A7",
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 12, 1",
+    "Foto contoh produk 12, 2"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 13,
+   "nama": "Produk Lorem 13",
+   "harga": 140000,
+   "deskripsi": "Ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit.",
+   "foto": [
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 13, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 14,
+   "nama": "Produk Lorem 14",
+   "harga": 50000,
+   "deskripsi": "Labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed.",
+   "foto": [
+    "#4D4D4D"
+   ],
+   "alt": [
+    "Foto contoh produk 14, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 15,
+   "nama": "Produk Lorem 15",
+   "harga": 65000,
+   "deskripsi": "Et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do.",
+   "foto": [
+    "#8C6D1F"
+   ],
+   "alt": [
+    "Foto contoh produk 15, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 16,
+   "nama": "Produk Lorem 16",
+   "harga": 80000,
+   "deskripsi": "Dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod.",
+   "foto": [
+    "#0072B2",
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 16, 1",
+    "Foto contoh produk 16, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 17,
+   "nama": "Produk Lorem 17",
+   "harga": 95000,
+   "deskripsi": "Magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor.",
+   "foto": [
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 17, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 18,
+   "nama": "Produk Lorem 18",
+   "harga": null,
+   "deskripsi": "Aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt.",
+   "foto": [
+    "#009E73"
+   ],
+   "alt": [
+    "Foto contoh produk 18, 1"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 19,
+   "nama": "Produk Lorem 19",
+   "harga": 125000,
+   "deskripsi": "Lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut.",
+   "foto": [
+    "#D55E00"
+   ],
+   "alt": [
+    "Foto contoh produk 19, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 20,
+   "nama": "Produk Lorem 20",
+   "harga": 140000,
+   "deskripsi": "Ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore.",
+   "foto": [
+    "#CC79A7",
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 20, 1",
+    "Foto contoh produk 20, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 21,
+   "nama": "Produk Lorem 21",
+   "harga": 50000,
+   "deskripsi": "Dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et.",
+   "foto": [
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 21, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 22,
+   "nama": "Produk Lorem 22",
+   "harga": 65000,
+   "deskripsi": "Sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore.",
+   "foto": [
+    "#4D4D4D"
+   ],
+   "alt": [
+    "Foto contoh produk 22, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 23,
+   "nama": "Produk Lorem 23",
+   "harga": 80000,
+   "deskripsi": "Amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna.",
+   "foto": [
+    "#8C6D1F"
+   ],
+   "alt": [
+    "Foto contoh produk 23, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 24,
+   "nama": "Produk Lorem 24",
+   "harga": 95000,
+   "deskripsi": "Consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua.",
+   "foto": [
+    "#0072B2",
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 24, 1",
+    "Foto contoh produk 24, 2"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 25,
+   "nama": "Produk Lorem 25",
+   "harga": 110000,
+   "deskripsi": "Adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem.",
+   "foto": [
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 25, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 26,
+   "nama": "Produk Lorem 26",
+   "harga": 125000,
+   "deskripsi": "Elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum.",
+   "foto": [
+    "#009E73"
+   ],
+   "alt": [
+    "Foto contoh produk 26, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 27,
+   "nama": "Produk Lorem 27",
+   "harga": null,
+   "deskripsi": "Sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor.",
+   "foto": [
+    "#D55E00"
+   ],
+   "alt": [
+    "Foto contoh produk 27, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 28,
+   "nama": "Produk Lorem 28",
+   "harga": 50000,
+   "deskripsi": "Do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit.",
+   "foto": [
+    "#CC79A7",
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 28, 1",
+    "Foto contoh produk 28, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 29,
+   "nama": "Produk Lorem 29",
+   "harga": 65000,
+   "deskripsi": "Eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet.",
+   "foto": [
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 29, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 30,
+   "nama": "Produk Lorem 30",
+   "harga": 80000,
+   "deskripsi": "Tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur.",
+   "foto": [
+    "#4D4D4D"
+   ],
+   "alt": [
+    "Foto contoh produk 30, 1"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 31,
+   "nama": "Produk Lorem 31",
+   "harga": 95000,
+   "deskripsi": "Incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing.",
+   "foto": [
+    "#8C6D1F"
+   ],
+   "alt": [
+    "Foto contoh produk 31, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 32,
+   "nama": "Produk Lorem 32",
+   "harga": 110000,
+   "deskripsi": "Ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit.",
+   "foto": [
+    "#0072B2",
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 32, 1",
+    "Foto contoh produk 32, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 33,
+   "nama": "Produk Lorem 33",
+   "harga": 125000,
+   "deskripsi": "Labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed.",
+   "foto": [
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 33, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 34,
+   "nama": "Produk Lorem 34",
+   "harga": 140000,
+   "deskripsi": "Et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do.",
+   "foto": [
+    "#009E73"
+   ],
+   "alt": [
+    "Foto contoh produk 34, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 35,
+   "nama": "Produk Lorem 35",
+   "harga": 50000,
+   "deskripsi": "Dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod.",
+   "foto": [
+    "#D55E00"
+   ],
+   "alt": [
+    "Foto contoh produk 35, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 36,
+   "nama": "Produk Lorem 36",
+   "harga": null,
+   "deskripsi": "Magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor.",
+   "foto": [
+    "#CC79A7",
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 36, 1",
+    "Foto contoh produk 36, 2"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 37,
+   "nama": "Produk Lorem 37",
+   "harga": 80000,
+   "deskripsi": "Aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt.",
+   "foto": [
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 37, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 38,
+   "nama": "Produk Lorem 38",
+   "harga": 95000,
+   "deskripsi": "Lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut.",
+   "foto": [
+    "#4D4D4D"
+   ],
+   "alt": [
+    "Foto contoh produk 38, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 39,
+   "nama": "Produk Lorem 39",
+   "harga": 110000,
+   "deskripsi": "Ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore.",
+   "foto": [
+    "#8C6D1F"
+   ],
+   "alt": [
+    "Foto contoh produk 39, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 40,
+   "nama": "Produk Lorem 40",
+   "harga": 125000,
+   "deskripsi": "Dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et.",
+   "foto": [
+    "#0072B2",
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 40, 1",
+    "Foto contoh produk 40, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 41,
+   "nama": "Produk Lorem 41",
+   "harga": 140000,
+   "deskripsi": "Sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore.",
+   "foto": [
+    "#E69F00"
+   ],
+   "alt": [
+    "Foto contoh produk 41, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 42,
+   "nama": "Produk Lorem 42",
+   "harga": 50000,
+   "deskripsi": "Amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna.",
+   "foto": [
+    "#009E73"
+   ],
+   "alt": [
+    "Foto contoh produk 42, 1"
+   ],
+   "tampil": true,
+   "habis": true,
+   "link_shopee": null
+  },
+  {
+   "id": 43,
+   "nama": "Produk Lorem 43",
+   "harga": 65000,
+   "deskripsi": "Consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua.",
+   "foto": [
+    "#D55E00"
+   ],
+   "alt": [
+    "Foto contoh produk 43, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 44,
+   "nama": "Produk Lorem 44",
+   "harga": 80000,
+   "deskripsi": "Adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem.",
+   "foto": [
+    "#CC79A7",
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 44, 1",
+    "Foto contoh produk 44, 2"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 45,
+   "nama": "Produk Lorem 45",
+   "harga": null,
+   "deskripsi": "Elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum.",
+   "foto": [
+    "#56B4E9"
+   ],
+   "alt": [
+    "Foto contoh produk 45, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": null
+  },
+  {
+   "id": 46,
+   "nama": "Produk Lorem 46",
+   "harga": 110000,
+   "deskripsi": "Sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit adipiscing do incididunt et aliqua dolor.",
+   "foto": [
+    "#4D4D4D"
+   ],
+   "alt": [
+    "Foto contoh produk 46, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  },
+  {
+   "id": 47,
+   "nama": "Produk Lorem 47",
+   "harga": 125000,
+   "deskripsi": "Do incididunt et aliqua dolor consectetur sed tempor labore magna ipsum amet elit eiusmod ut dolore lorem sit.",
+   "foto": [
+    "#8C6D1F"
+   ],
+   "alt": [
+    "Foto contoh produk 47, 1"
+   ],
+   "tampil": true,
+   "habis": false,
+   "link_shopee": "https://shopee.co.id/"
+  }
+ ]
+}

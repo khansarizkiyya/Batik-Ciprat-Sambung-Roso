@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Halaman admin tidak diindeks mesin pencari -->
+    <meta name="robots" content="noindex">
+
+    <title>Admin | Batik Ciprat Langitan</title>
+
+    <!-- CSS utama dan CSS khusus admin -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+    <!-- Aksesibilitas: pintasan menuju konten utama -->
+    <a class="skip" href="#adm">Lompat ke konten utama</a>
+
+    <!-- Navigasi admin -->
+    <header class="top">
+        <nav aria-label="Menu admin">
+            <a class="brand" href="index.html">
+                &larr; Kembali ke web
+            </a>
+
+            <ul id="adm-nav" hidden>
+                <li>
+                    <button type="button" data-v="produk">
+                        Produk
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-v="artis">
+                        Artis
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-v="struktur">
+                        Struktur
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-v="narasi">
+                        Narasi
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" data-v="pengaturan">
+                        Pengaturan
+                    </button>
+                </li>
+
+                <li>
+                    <button type="button" id="keluar">
+                        Keluar
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten utama halaman admin -->
+    <main id="adm" class="wrap" tabindex="-1">
+
+        <!-- Bagian login -->
+        <section
+            id="login"
+            class="box"
+            aria-labelledby="h-login"
+        >
+            <h1 id="h-login">Masuk pengelola</h1>
+
+            <!-- Login dengan email dan kata sandi -->
+            <form id="f-login">
+                <p>
+                    <label for="email">Email</label>
+                    <input
+                        id="email"
+                        type="email"
+                        autocomplete="username"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="sandi">Kata sandi</label>
+                    <input
+                        id="sandi"
+                        type="password"
+                        autocomplete="current-password"
+                        required
+                    >
+                </p>
+
+                <p class="cek-baris">
+                    <input
+                        id="lihat-sandi"
+                        type="checkbox"
+                    >
+                    <label for="lihat-sandi">
+                        Tampilkan kata sandi
+                    </label>
+                </p>
+
+                <p style="margin-top: 1rem;">
+                    <button class="btn" type="submit">
+                        Masuk
+                    </button>
+                </p>
+            </form>
+
+            <!-- Pesan kesalahan login -->
+            <p
+                id="msg-login"
+                class="err"
+                role="alert"
+            ></p>
+        </section>
+
+        <!-- Panel pengelolaan setelah login -->
+        <section id="panel" hidden>
+            <h1 id="adm-h" tabindex="-1"></h1>
+
+            <!-- Pesan status pengelolaan -->
+            <p id="msg" role="status"></p>
+
+            <!-- Tombol tambah data -->
+            <div class="bar">
+                <button
+                    class="btn"
+                    id="tambah"
+                    type="button"
+                >
+                    Tambah baru
+                </button>
+            </div>
+
+            <!-- Tabel data dinamis -->
+            <div class="scroll">
+                <table id="tbl"></table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Dialog untuk tambah atau edit data -->
+    <dialog id="dlg" aria-label="Formulir">
+        <form id="f-edit"></form>
+    </dialog>
+
+    <!-- Library Supabase -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"
+    ></script>
+
+    <!-- Logika halaman admin -->
+    <script type="module" src="js/admin.js"></script>
+</body>
+
+</html>

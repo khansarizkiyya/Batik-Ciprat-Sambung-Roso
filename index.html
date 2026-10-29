@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Batik Ciprat Sambung Roso</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip" href="#konten">Lompat ke konten utama</a>
+
+    <header class="top">
+        <nav aria-label="Menu utama">
+            <a class="brand" href="#beranda" data-t="beranda">
+                Batik Ciprat Sambung Roso
+            </a>
+
+            <ul>
+                <li>
+                    <a href="#beranda" data-t="beranda" id="n-beranda">
+                        Beranda
+                    </a>
+                </li>
+                <li>
+                    <a href="#artis" data-t="artis" id="n-artis">
+                        Keluarga Sambung Roso
+                    </a>
+                </li>
+                <li>
+                    <a href="#produk" data-t="produk" id="n-produk">
+                        Produk
+                    </a>
+                </li>
+                <li>
+                    <a href="admin.html" class="nav-admin">
+                        Login Admin
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="konten" tabindex="-1">
+        <div id="v-home">
+            <section class="hero" aria-labelledby="h1">
+
+                <!-- Banner: foto latar yang berganti sendiri (dikendalikan js/slides.js).
+                     Foto ditampilkan UTUH (tidak dipotong/di-zoom) dalam bingkai rasio 3:2.
+                     Ganti/tambah foto dengan mengubah baris <img> di bawah; simpan fotonya
+                     di folder images/slide/ (disarankan WebP, lebar sekitar 1800 px).
+                     Foto hanya dekorasi, jadi alt dikosongkan. -->
+                <div class="banner">
+                    <div class="hero-bg" id="hero-bg" aria-hidden="true">
+                        <img class="aktif" src="images/slide/profil.webp" alt="">
+                        <img src="images/slide/kasir.webp" alt="" loading="lazy">
+                        <img src="images/slide/galeri.webp" alt="" loading="lazy">
+                    </div>
+
+                    <div class="judul">
+                        <h1 id="h1" tabindex="-1">
+                            Batik Ciprat Langitan
+                        </h1>
+                        <p>
+                            Katalog Digital Sheltered Workshop Peduli Sambung Roso
+                        </p>
+                        <button class="jeda-latar" id="s-jeda" type="button">
+                            Jeda foto latar
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Struktur organisasi: diisi otomatis dari tabel "struktur" di Supabase
+                     (js/app.js). Nama, foto, dan jabatan diubah lewat halaman admin > Struktur. -->
+                <section class="box struktur" id="struktur" aria-labelledby="h-struktur" hidden>
+                    <h2 id="h-struktur">Struktur Organisasi Sheltered Workshop Peduli Sambung Roso</h2>
+                    <ul class="org" id="org" role="list"></ul>
+                </section>
+
+                <div class="narasi" id="narasi"></div>
+
+            </section>
+
+            <!-- Video proses pembuatan batik (tetap, tidak bisa diubah pengelola).
+                 GANTI ID_VIDEO_KAMU dengan kode video YouTube, contoh:
+                 youtube.com/watch?v=abc123XYZ  ->  .../embed/abc123XYZ
+                 Pastikan di YouTube Studio: penyematan (embedding) diizinkan,
+                 dan visibilitas Public atau Unlisted.
+                 Kalau video belum ada, hapus <iframe> di bawah dan pakai:
+                 <p class="muted">Video proses pembuatan batik segera hadir.</p> -->
+            <section class="wrap" aria-labelledby="h-video">
+                <h2 class="sec" id="h-video">Proses membuat batik ciprat</h2>
+
+                <div class="video-box">
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/ID_VIDEO_KAMU"
+                        title="Video proses pembuatan batik ciprat"
+                        loading="lazy"
+                        allow="encrypted-media; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+
+                <details>
+                    <summary>Baca transkrip video</summary>
+                    <p>
+                        Tulis di sini isi narasi video dan penjelasan
+                        langkah-langkahnya (misalnya: menyiapkan kain,
+                        memercikkan malam, pewarnaan, penjemuran).
+                    </p>
+                </details>
+            </section>
+
+            <section class="wrap" aria-labelledby="h-artis">
+                <h2 class="sec" id="h-artis" tabindex="-1">
+                    Keluarga Sambung Roso
+                </h2>
+
+                <p class="muted">Pilih salah satu anggota untuk melihat profilnya.</p>
+
+                <ul class="artis-grid" id="artis-grid"></ul>
+                <div class="artis-panel" id="artis-panel"></div>
+            </section>
+        </div>
+
+        <div id="v-produk" class="wrap" hidden>
+            <h1 id="h-produk" tabindex="-1">Semua produk</h1>
+            <ul class="grid" id="produk-list"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p id="catatan" aria-live="polite"></p>
+        <p>&copy; Batik Ciprat Langitan Simbatan</p>
+    </footer>
+
+    <dialog id="detail" aria-labelledby="d-judul">
+        <p class="kanan">
+            <button class="btn alt" id="d-tutup" type="button">
+                Tutup
+            </button>
+        </p>
+
+        <div
+            role="group"
+            aria-label="Foto produk"
+        >
+            <div class="track" id="d-track" tabindex="0"></div>
+
+            <div class="ctl" id="d-ctl">
+                <button class="btn alt" id="d-prev" type="button">
+                    Foto sebelumnya
+                </button>
+
+                <span id="d-info" aria-live="polite"></span>
+
+                <button class="btn alt" id="d-next" type="button">
+                    Foto berikutnya
+                </button>
+            </div>
+        </div>
+
+        <h2 id="d-judul"></h2>
+        <p id="d-harga" class="harga"></p>
+
+        <p id="d-stok" class="stok" hidden>
+            Produk ini sudah habis.
+        </p>
+
+        <p id="d-desk" class="muted"></p>
+
+        <a id="d-wa" class="wa" target="_blank" rel="noopener"></a>
+        <a id="d-shopee" class="wa shopee" target="_blank" rel="noopener" hidden></a>
+
+    </dialog>
+
+    <script src="js/slides.js" defer></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
